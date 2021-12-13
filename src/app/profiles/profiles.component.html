@@ -1,0 +1,9 @@
+<section>
+  <div class="container is-fluid">
+    <div class="tile is-ancestor">
+      <div *ngFor="let candidate of candidates" class="tile ">
+        <app-card [text]=candidate></app-card>
+      </div>
+    </div>
+  </div>
+</section>
