@@ -1,7 +1,7 @@
 <section>
   <div class="container is-fluid">
-    <div class="tile is-ancestor">
-      <div *ngFor="let candidate of candidates" class="tile ">
+    <div class="columns is-multiline">
+      <div *ngFor="let candidate of candidates" class="'column is-4 column-cards">
         <app-card [text]=candidate></app-card>
       </div>
     </div>
